@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity ^0.8.0;
 
 import "./Token.sol";
 
@@ -12,7 +12,7 @@ contract dBank {
   //add events
 
   //pass as constructor argument deployed Token contract
-  constructor() public {
+  constructor() {
     //assign token deployed contract to variable
   }
 

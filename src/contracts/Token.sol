@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
@@ -8,7 +8,7 @@ contract Token is ERC20 {
 
   //add minter changed event
 
-  constructor() public payable ERC20("Name", "Symbol") {
+  constructor() payable ERC20("Name", "Symbol") {
     //asign initial minter
   }
 
